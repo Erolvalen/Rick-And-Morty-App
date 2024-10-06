@@ -1,0 +1,11 @@
+body {
+  margin: 0; /* Eliminar márgenes del body */
+  padding: 0; /* Eliminar relleno del body */
+}
+
+.app-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  position: relative; /* Para asegurar que los elementos se posicionen correctamente */
+}

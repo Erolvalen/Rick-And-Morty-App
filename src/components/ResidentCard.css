@@ -1,0 +1,24 @@
+.resident-card {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    padding: 15px; /* Espaciado interno */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+    overflow: hidden; /* Ocultar cualquier desbordamiento */
+}
+
+.resident-card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7); /* Aumentar la sombra al hacer hover */
+}
+
+.resident-card img {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho */
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+}
+
+.resident-card h4,
+.resident-card p {
+    color: #000000; /* Color del texto en negro para mejor visibilidad */
+    margin: 5px 0; /* Margen entre los elementos de texto */
+}

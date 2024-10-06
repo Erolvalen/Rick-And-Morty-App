@@ -1,0 +1,10 @@
+.header {
+    position: relative; /* Para posicionar la imagen dentro del encabezado */
+    overflow: hidden; /* Ocultar cualquier desbordamiento */
+}
+
+.header-image {
+    width: 100%; /* Ajustar al ancho del contenedor */
+    height: auto; /* Mantener proporciones */
+    display: block; /* Eliminar espacios en blanco debajo de la imagen */
+}
